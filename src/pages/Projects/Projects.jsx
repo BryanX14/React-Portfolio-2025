@@ -20,7 +20,7 @@ export default function Projects() {
             </ul>
             <div className={styles.projectLinks}>
               <a href="https://topnotchhomesolutions.ca" target="_blank" rel="noopener noreferrer">Live Site</a>
-              <a href="https://github.com/yourusername/topnotch-site" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://github.com/bryangreig" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
           <div className={styles.projectImageWrapper}>
@@ -38,8 +38,8 @@ export default function Projects() {
               <li>Vite</li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="https://bryangreig.dev" target="_blank" rel="noopener noreferrer">Live Site</a>
-              <a href="https://github.com/yourusername/react-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://bryangreig.com" target="_blank" rel="noopener noreferrer">Live Site</a>
+              <a href="https://github.com/BryanX14/React-Portfolio-2025" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
           <div className={styles.projectImageWrapper}>
