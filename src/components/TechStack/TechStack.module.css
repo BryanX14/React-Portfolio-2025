@@ -1,0 +1,27 @@
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.techStack li {
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.techStack li:hover {
+  transform: scale(1.1);
+  cursor: default;
+}

@@ -1,0 +1,57 @@
+/* src/styles/App.css */
+:root {
+  --bg-color: #f1efec;
+  --text-color: #122431;
+  --accent-color: #537978;
+  --sec-text: #f1efec;
+}
+
+
+[data-theme='dark'] {
+  --bg-color: #122431;
+  --text-color: #ffffff;
+  --accent-color: #9ED1B7;
+  --sec-text: #122431;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+.app-container {
+  display: flex;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.app-container.fade-in {
+  opacity: 1;
+}
+
+.main-content {
+  margin-left: 220px;
+  width: calc(100% - 250px);
+  overflow-x: hidden;
+}
+
+.section {
+  padding: 100px 40px;
+}
+
+
+@media (max-width: 768px){
+  .main-content{
+    margin: 30px;
+    width: 100%;
+  }
+  .section {
+  padding: 80px 30px;
+}
+  
+  
+}
