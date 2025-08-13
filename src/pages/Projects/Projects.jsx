@@ -20,7 +20,7 @@ export default function Projects() {
             </ul>
             <div className={styles.projectLinks}>
               <a href="https://topnotchhomesolutions.ca" target="_blank" rel="noopener noreferrer">Live Site</a>
-              <a href="https://github.com/bryangreig" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://github.com/BryanX14" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
           <div className={styles.projectImageWrapper}>
