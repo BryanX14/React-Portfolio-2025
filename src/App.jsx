@@ -21,7 +21,6 @@ export default function App() {
     document.documentElement.setAttribute('data-theme', theme)
   }, [theme])
 
-  // loader
   useEffect(() => {
     const timer = setTimeout(() => {
       setFadeOutLoader(true)
