@@ -8,7 +8,7 @@ export default function Contact() {
       <div className={styles.conContainer}>
         <div className={styles.leftContact}>
           <img src={contactImg} alt="Profile" className={styles.contactImage} />
-          <p>If you'd like to work together or just want to say hi, feel free to reach out!</p>
+          <p>If you&apos;d like to work together or just want to say hi, feel free to reach out!</p>
         </div>
 
         <div className={styles.rightContact}>
