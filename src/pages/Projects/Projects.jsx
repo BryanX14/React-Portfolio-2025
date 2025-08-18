@@ -35,12 +35,12 @@ export default function Projects() {
             <p>Redesigned and developed a modern portfolio website for Zoe Scattergood, a graphic designer.
                Built with React and React Router for smooth navigation, featuring a fully responsive layout, optimized performance, and clean UI to highlight her creative work.</p>
             <ul className={styles.projectTags}>
-              <li>React Native</li>
-              <li>Expo</li>
-              <li>API Integration</li>
+              <li>React</li>
+              <li>CSS Modules</li>
+              <li>JavaScript</li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="https://github.com/yourusername/golf-weather-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://github.com/BryanX14/zoe-scattergood-portfolio-v2.git" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
           <div className={styles.projectImageWrapper}>
@@ -51,7 +51,7 @@ export default function Projects() {
         <div className={styles.projectCard}>
           <div className={styles.projectInfo}>
             <h3>React Portfolio</h3>
-            <p>My personal portfolio site featuring theme toggle, loader animation, and responsive layout.</p>
+            <p>Designed and developed my personal portfolio website using React, Vite, and CSS Modules to showcase projects and skills. The site features a clean, modern interface with responsive layouts, smooth navigation through React Router, and is fully optimized for both desktop and mobile viewing.</p>
             <ul className={styles.projectTags}>
               <li>React</li>
               <li>CSS Modules</li>

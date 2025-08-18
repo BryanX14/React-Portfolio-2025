@@ -98,6 +98,10 @@
 
   .projectLinks {
   margin-top: 10px;
-  text-decoration: underline;
+  text-align: center;
+}
+
+.projectTags li{
+ display: none;
 }
 }
